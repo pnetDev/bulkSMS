@@ -10,7 +10,7 @@
 $currTime = date('Y-m-d H:i:s');
 $logFile = '/var/log/sms.log';
 $sms_username = "c.maverley@permanet.ie";
-$sms_password = "perma0108";
+$sms_password = "XXXXXXXX";
 $senderid = "permaNET.ie";
 $message = file_get_contents("message.txt");
 $message = str_replace("\r", "\n", $message);
